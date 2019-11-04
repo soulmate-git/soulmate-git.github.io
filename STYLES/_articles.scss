@@ -1,0 +1,51 @@
+.articles{
+    display: flex;
+    flex-direction: column;
+    background-color: #D5D9E5;
+    h3{
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-bottom: 50px;
+    }
+    .lg-card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #F4D504;
+        max-width: 1043px;
+        height: 250px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .lg-card-text{
+        max-width: 535px;
+        margin: 0 120px;
+    }
+    .lg-card-name{
+        font-family: 'Roboto Slab', serif;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 14px;
+    }
+    .lg-card-discription{
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 14px;
+    }
+    .lg-card-data{
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        font-weight: normal;
+        color: #333333;
+        max-width: max-content;
+        border-top: 1px solid #333333;
+        padding-top: 10px;
+    }
+    .rightside{
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,11 @@
+.image-links{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1088px;
+    height: auto;
+    .sm-image-links{
+        display: flex;
+        flex-direction: column;
+    }
+}

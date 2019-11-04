@@ -1,0 +1,49 @@
+.container {
+    max-width: 1088px;
+    margin: 50px auto;
+    .headline {
+        display: flex;
+        justify-content: space-between;
+    }
+    .headline-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #55BBF8;
+    }
+    .md-cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .md-card{
+        line-height: 2.2rem;
+        text-align: center;
+    }
+    .md-card-image{
+        margin-bottom: 10px;
+    }
+    .md-card-item-name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .md-card-item-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #EC766B;
+    }
+    .md-card-old-price {
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: normal;
+        text-decoration: line-through;
+        color: #333333;
+    }
+    .md-card-item-button {
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #F4D504;
+        border-radius: 8px;
+        border: none;
+    }
+}

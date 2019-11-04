@@ -1,0 +1,19 @@
+.pre-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;
+    height: 240px;
+    .list{
+        color: #fff;
+        line-height: 1.4rem;
+    }
+    .list-headline {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .list-item{
+        font-size: 12px;
+        font-weight: normal;
+    }
+}

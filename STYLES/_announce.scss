@@ -1,0 +1,47 @@
+.announce {
+    display: flex;
+    background-color: #F4D504;
+    height: 180px;
+    align-items: center;
+    justify-content: space-around;
+    .announce-text {
+        font-family: 'Roboto Slab', serif;
+        line-height: 2.6rem;
+    }
+    .sm-announce-text {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .md-announce-text {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .mailing {
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 8px;
+        .subscribe {
+            display: flex;
+            align-items: center;
+        }
+        .input {
+            width: 350px;
+            padding: 20px 15px;
+            border: none;
+            border-radius: 8px 0 0 8px;
+            font-size: 16px;
+            font-weight: normal;
+        }
+        .subscribe-button{
+            padding: 20px 15px;
+            border: none;
+            border-radius: 0 8px 8px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #55BBF8;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.sm-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1088px;
+    margin: 50px auto;
+    .sm-card {
+        display: flex;
+        align-items: center;
+        border: 1px solid #D5D9E5;
+        border-radius: 8px;
+        height: 80px;
+        width: 260px;
+    }
+    .outfit {
+        color: #EC766B;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .sm-card-image {
+        margin-left: 15px;
+    }
+    .sm-card-text {
+        font-size: 14px;
+        font-weight: normal;
+        margin-left: 10px;
+        line-height: 1.2rem;
+    }
+}
