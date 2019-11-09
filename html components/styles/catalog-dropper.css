@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-dropper {
+  background-color: #F4D504;
+  max-width: 820px;
+  border-radius: 8px;
+}
+
+.catalog-dropper .headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #EC766B;
+}
+
+.catalog-dropper .dropper-icon {
+  padding: 0 30px;
+}
+
+.catalog-dropper .catalog-heading {
+  font-family: 'Roboto Slab', sans-serif;
+  padding: 15px 30px;
+}
+
+.catalog-dropper .catalog-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+.catalog-dropper .catalog-wrapper .catalog-list-item {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.catalog-dropper .catalog-wrapper .catalog-link {
+  text-decoration: none;
+  color: #696969;
+  font-size: 14px;
+  font-weight: normal;
+}
+/*# sourceMappingURL=catalog-dropper.css.map */
