@@ -13,16 +13,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #EC766B;
-}
-
-.catalog-dropper .dropper-icon {
-  padding: 0 30px;
+  border-bottom: 1px solid #EC766B;
+  padding: 15px 30px;
 }
 
 .catalog-dropper .catalog-heading {
   font-family: 'Roboto Slab', sans-serif;
-  padding: 15px 30px;
 }
 
 .catalog-dropper .catalog-wrapper {
@@ -31,10 +27,10 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 10px;
+  padding: 15px;
 }
 
-.catalog-dropper .catalog-wrapper .catalog-list-item {
+.catalog-dropper .catalog-wrapper .catalog-item {
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
